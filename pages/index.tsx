@@ -2,7 +2,6 @@ import type { NextPage } from 'next'
 import Nav from '../Components/Nav'
 import {  Container } from '@mui/material'
 import Hero from '../Components/Hero'
-import Button from '../Components/Button'
 const Home: NextPage = () => {
   return (
   
@@ -14,7 +13,6 @@ const Home: NextPage = () => {
 
 
 <Hero/>
-<Button varaint='contained' color='#f58321'/>
 </Container>
 </div>
 
